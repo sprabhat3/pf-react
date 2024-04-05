@@ -55,9 +55,9 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Welcome to my Portfolio</span>
+                <span className="tagline">Welcome to My Portfolio</span>
                 <h1>{`Hi! I'm Prabhat,`} <br></br><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Developer", "Dot Net Developer", "Full Stack Developer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                  <p>I specialize in designing, coding, testing, and deploying software applications using the .NET framework. With a passion for software development, I collaborate with internal teams to design software architecture, write clean and scalable code, and provide technical support throughout the software development lifecycle.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
